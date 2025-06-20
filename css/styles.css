@@ -24,3 +24,30 @@
     --text-alter-color: #0bd2d4;
     --text-color: #fbfeff;
 }
+
+/* Basic Styles */
+::selection{
+    background: var(--main-color);
+    color: var(--text-color);
+}
+
+section{
+    padding: 4rem 0 3rem;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    color: var(--text-color);
+    background: var(--body-color);
+}
