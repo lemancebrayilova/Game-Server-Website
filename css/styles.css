@@ -263,7 +263,8 @@ header{
     text-transform: uppercase;
 }
 
-.slide-title::after{
+.slide-title::after,
+.faq-title::after{
     content: "";
     position: absolute;
     top: -8px;
@@ -415,4 +416,33 @@ header{
     font-weight: 500;
     margin-top: 0.5rem;
     color: var(--main-color);
+}
+
+/* Faq */
+.faq{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.faq-text{
+    flex: 1 1 17rem;
+}
+
+.faq-img{
+    flex: 1 1 17rem;
+}
+
+.faq-title{
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.faq-text p{
+    font-size: 0.938rem;
+    text-align: justify;
+    margin: 0.5rem 0 1.5rem;
 }
