@@ -517,3 +517,11 @@ header{
     font-size: 0.87rem;
     padding: 10px;
 }
+
+.accordion-open .accordion-icon{
+    transform: rotate(45deg);
+}
+
+.accordion-open .accordion-title{
+    font-weight: 600;
+}
