@@ -14,6 +14,13 @@ menu.onclick = () => {
     menu.classList.toggle("move")
 }
 
+// Header Background
+let header = document.querySelector('header');
+
+window.addEventListener('scroll', () => {
+    header.classList.toggle('shadow', window.scrollY > 0);
+})
+
 // Home Swiper
 var swiper = new Swiper(".home", {
     spaceBetween: 30,

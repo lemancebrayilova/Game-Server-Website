@@ -67,6 +67,10 @@ header{
     background: rgb(29 35 82 / 90%);
     z-index: 200;
 }
+header.shadow{
+    background: var(--container-color);
+    transition: 0.4s all linear;
+}
 
 .nav{
     max-width: 1200px;
