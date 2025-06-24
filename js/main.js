@@ -8,10 +8,18 @@ loginBtn.onclick = () => {
 
 // Menu Open Close
 let menu = document.querySelector('.menu-icon')
-// let navbar = document.querySelector('.navbar')
+let navbar = document.querySelector('.navbar')
 
 menu.onclick = () => {
     menu.classList.toggle("move")
+    navbar.classList.toggle('open-menu')
+}
+
+// On Scroll Remove Menu
+window.onscroll = () => {
+    menu.classList.remove("move")
+    navbar.classList.remove("open-menu")
+    dropLogin.classList.remove("drop-login-btn")
 }
 
 // Header Background
